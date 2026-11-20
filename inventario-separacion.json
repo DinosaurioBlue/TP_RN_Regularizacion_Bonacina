@@ -1,0 +1,42 @@
+[
+  {
+    "archivo": ".gitignore",
+    "bytes": 197,
+    "sha256": "175e9bcdb62c2d6722492cc7a290d74a6d1f4624a3588db905b11a21f70cf3a8"
+  },
+  {
+    "archivo": "arquitectura-tp-regularizacion.html",
+    "bytes": 6763,
+    "sha256": "111b06c13f6834550e77676dd5ad60ff2606aece43c4aee12cd3070c5a8533cf"
+  },
+  {
+    "archivo": "entorno-origen.json",
+    "bytes": 583,
+    "sha256": "263505b21c083045e0fe4469f6e3cbce3e791d121b9c62e082b46d95f47d23bd"
+  },
+  {
+    "archivo": "README.md",
+    "bytes": 2452,
+    "sha256": "0395ad0230307f1ec5018b89b2d624e4cea3e4576fda0c92c15f9df30f4eec6d"
+  },
+  {
+    "archivo": "registros/README.md",
+    "bytes": 196,
+    "sha256": "4cd0613576e9098e5760bfdcdd16fda866d80d793efe6e4ed6c448554e0a9bd5"
+  },
+  {
+    "archivo": "requirements.txt",
+    "bytes": 217,
+    "sha256": "461f44ac970d15f4a15d9d6c85d6b851ddde689a5418a673257f7eca0804c655"
+  },
+  {
+    "archivo": "TP_Regularización.ipynb",
+    "bytes": 10279958,
+    "sha256": "adb8e08a56909c40720d08b3a15e8411ef502394059f673219ec6bca7576a88e"
+  },
+  {
+    "archivo": "ver_registros.py",
+    "bytes": 942,
+    "sha256": "93b400d062128a263634fd327a4b7b235592078f771e586bdb31df9f895fbcbd"
+  }
+]
