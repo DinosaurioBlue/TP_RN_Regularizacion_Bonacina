@@ -1,0 +1,25 @@
+{
+  "trial": 0,
+  "best_epoch": 3,
+  "config": {
+    "regularizacion": 0,
+    "batch_size": 128,
+    "hidden_units": [
+      256
+    ],
+    "activation": "leaky_relu",
+    "policy": "fixed",
+    "base_lr": 0.0021893803921568624,
+    "half_cycle_epochs": 2,
+    "dropout": 0.0,
+    "lr": 0.0024524713668806378
+  },
+  "roles": [
+    "baseline"
+  ],
+  "seed": 3,
+  "epochs": 40,
+  "device": "xpu",
+  "gpu": "Intel(R) Arc(TM) 140V GPU (16GB)",
+  "torch_version": "2.14.1+xpu"
+}

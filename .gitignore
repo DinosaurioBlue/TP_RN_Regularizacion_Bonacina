@@ -1,0 +1,10 @@
+# Corridas locales, salvo la corrida original incluida en la entrega.
+/.experimentos/*
+!/.experimentos/my_gpu_search/
+/.experimentos/my_gpu_search/*
+!/.experimentos/my_gpu_search/ba3ca4d5af94/
+.ipynb_checkpoints/
+__pycache__/
+mlflow.db
+mlruns/
+runs/

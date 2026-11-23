@@ -1,0 +1,4 @@
+modelo,roles,regularizacion,dropout,capas,politica_lr,trial,epoca,accuracy_dev,accuracy_test,ce_test,accuracy_test_sin_copias,n_test_sin_copias
+baseline,baseline,0,0.0,[256],fixed,0,3,0.7015915119363395,0.6467073818374933,1.1899154711706614,0.6470588235294118,7514
+mejor_lr_fijo,"mejor_lr_fijo, mejor_regularizado",dropout,0.5,[512],fixed,2,26,0.7046861184792219,0.6530801911842804,1.1743993997194004,0.6534468991216396,7514
+mejor_clr,mejor_clr,dropout,0.4,[256],clr,18,4,0.7033598585322723,0.643255443441317,1.249792724990237,0.643598615916955,7514

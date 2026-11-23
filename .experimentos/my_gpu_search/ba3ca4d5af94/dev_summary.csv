@@ -1,0 +1,7 @@
+politica,regularizacion,completos,trials,trial,capas,batch_size,dropout,accuracy_dev
+fixed,0,8,8,13,[512],256,0.0,0.7046861184792219
+fixed,batchnorm,4,4,1,[256],256,0.0,0.6781609195402298
+fixed,dropout,12,12,2,[512],256,0.5,0.7046861184792219
+clr,0,11,11,19,[512],128,0.0,0.6993810786914235
+clr,batchnorm,3,3,1,[512],64,0.0,0.6604774535809018
+clr,dropout,10,10,18,[256],128,0.4,0.7033598585322723

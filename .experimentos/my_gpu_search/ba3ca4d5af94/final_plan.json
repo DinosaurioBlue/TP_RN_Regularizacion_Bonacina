@@ -1,0 +1,63 @@
+{
+  "baseline": {
+    "trial": 0,
+    "best_epoch": 3,
+    "config": {
+      "regularizacion": 0,
+      "batch_size": 128,
+      "hidden_units": [
+        256
+      ],
+      "activation": "leaky_relu",
+      "policy": "fixed",
+      "base_lr": 0.0021893803921568624,
+      "half_cycle_epochs": 2,
+      "dropout": 0.0,
+      "lr": 0.0024524713668806378
+    },
+    "roles": [
+      "baseline"
+    ]
+  },
+  "mejor_lr_fijo": {
+    "trial": 2,
+    "best_epoch": 26,
+    "config": {
+      "regularizacion": "dropout",
+      "batch_size": 256,
+      "hidden_units": [
+        512
+      ],
+      "activation": "leaky_relu",
+      "policy": "fixed",
+      "base_lr": 0.0021893803921568624,
+      "half_cycle_epochs": 2,
+      "dropout": 0.5,
+      "lr": 0.00032072633190850385
+    },
+    "roles": [
+      "mejor_lr_fijo",
+      "mejor_regularizado"
+    ]
+  },
+  "mejor_clr": {
+    "trial": 18,
+    "best_epoch": 4,
+    "config": {
+      "regularizacion": "dropout",
+      "batch_size": 128,
+      "hidden_units": [
+        256
+      ],
+      "activation": "leaky_relu",
+      "policy": "clr",
+      "base_lr": 0.0020967210885501036,
+      "half_cycle_epochs": 2,
+      "dropout": 0.4,
+      "lr": 0.00467782632094563
+    },
+    "roles": [
+      "mejor_clr"
+    ]
+  }
+}
