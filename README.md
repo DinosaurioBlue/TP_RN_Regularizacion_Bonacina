@@ -30,6 +30,15 @@ Tarde demasiado en realizar estos tps, ya que no estuve muy conformo con mis res
   Mostramos el test oficial y la accuracy quitando las copias del train
   oficial.
 
+## Segunda corrida con semilla 9
+
+Con semilla 9 y la misma partición, los resultados fueron muy similares
+a los de semilla 3. En test, el baseline pasó de 64,67 % a 65,22 %, el
+mejor con LR fijo de 65,31 % a 66,17 % y CLR quedó cerca de 64,3 % en
+ambas corridas. LR fijo obtuvo la mejor accuracy en las dos semillas.
+El ganador de semilla 9 fue sin regularización, mientras que el de
+semilla 3 usó Dropout.
+
 ## CLR con Adam
 
 Smith propone subir y bajar el LR por batch. Con `triangular2`, el tamaño
